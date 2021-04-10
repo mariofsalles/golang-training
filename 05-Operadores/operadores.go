@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 
 	// Aritmeticos
 	fmt.Println("***Aritmeticos")
@@ -33,24 +33,23 @@ func main(){
 	fmt.Println(1 < 2)
 	fmt.Println(1 > 2)
 	fmt.Println(1 != 2)
-	
+
 	// Logicos
 	fmt.Println("\n***Logicos")
 	verdadeiro, falso := true, false
 	fmt.Println(verdadeiro && falso)
 	fmt.Println(verdadeiro || falso)
 	fmt.Println(!falso)
-	
+
 	// Unários, não exitem ternários
 	fmt.Println("\n***Unários")
 	numeroMais := 10
-	numeroMais ++
-	
+	numeroMais++
+
 	numeroMenos := 14
-	numeroMenos --
-	
+	numeroMenos--
+
 	fmt.Println(numeroMais)
 	fmt.Println(numeroMenos)
-	
 
 }
