@@ -32,7 +32,7 @@ func main() {
 	}
 
 	for indice, letra := range "PALAVRA" {
-		fmt.Println(indice, "-", string(letra))
+		fmt.Println(indice+1, "-", string(letra))
 		time.Sleep(200 * time.Millisecond)
 	}
 
