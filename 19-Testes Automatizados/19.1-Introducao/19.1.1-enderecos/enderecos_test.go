@@ -1,9 +1,10 @@
 // Teste Unitário
-package enderecos
+package enderecos_test
 
 import (
 	"strings"
 	"testing"
+	. "introducao-testes/19.1.1-enderecos"
 )
 
 type CenarioDeTeste struct {
