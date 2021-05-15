@@ -1,0 +1,9 @@
+{
+    "nome":"string",
+    "idade":"int",
+    "cursos":[
+        {
+            "nome":"string"
+        }
+    ]
+}
